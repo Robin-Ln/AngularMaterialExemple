@@ -4,4 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Liens utils
 
+### Commande pour CLI pour faciliter la création de composant material
 https://material.angular.io/guide/schematics
+
+### Utilisation de ngx-tranlate
+http://www.ngx-translate.com/
