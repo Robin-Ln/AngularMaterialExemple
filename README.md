@@ -9,3 +9,6 @@ https://material.angular.io/guide/schematics
 
 ### Utilisation de ngx-tranlate
 http://www.ngx-translate.com/
+
+### icones
+https://codinglatte.com/posts/angular/material-icons-angular-5/
