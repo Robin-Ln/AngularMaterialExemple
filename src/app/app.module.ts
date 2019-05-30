@@ -35,6 +35,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { TreeComponent } from './tree/tree.component';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TextComponent } from './text/text.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     TableComponent,
     DashboardComponent,
     TreeComponent,
-    DragDropComponent
+    DragDropComponent,
+    TextComponent
   ],
   imports: [
     BrowserModule,
