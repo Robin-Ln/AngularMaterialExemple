@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FootApp": {
+    "App": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FootApp",
+            "outputPath": "dist/App",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "FootApp:build"
+            "browserTarget": "App:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "FootApp:build:production"
+              "browserTarget": "App:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FootApp:build"
+            "browserTarget": "App:build"
           }
         },
         "test": {
@@ -109,7 +109,7 @@
         }
       }
     },
-    "FootApp-e2e": {
+    "App-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -118,11 +118,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "FootApp:serve"
+            "devServerTarget": "App:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "FootApp:serve:production"
+              "devServerTarget": "App:serve:production"
             }
           }
         },
@@ -138,5 +138,5 @@
       }
     }
   },
-  "defaultProject": "FootApp"
+  "defaultProject": "App"
 }
